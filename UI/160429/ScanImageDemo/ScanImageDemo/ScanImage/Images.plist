@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>shenjingbing</string>
+		<key>desc</key>
+		<string>我们是一窝神经病</string>
+		<key>url</key>
+		<string>http://www.ha.xinhuanet.com/hnxw/yljd/2015-10/09/c_1116762377.htm</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>chuide</string>
+		<key>desc</key>
+		<string>别听他的，他是吹的</string>
+		<key>url</key>
+		<string>http://www.ha.xinhuanet.com/hnxw/yljd/2015-10/09/c_1116762377.htm</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>dog</string>
+		<key>desc</key>
+		<string>傻逼，你咬着我手了！梦见吃啥呢？</string>
+		<key>url</key>
+		<string>http://www.ha.xinhuanet.com/hnxw/yljd/2015-10/09/c_1116762377.htm</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>huaiyun</string>
+		<key>desc</key>
+		<string>哥怀孕了，求高人指点...</string>
+		<key>url</key>
+		<string>http://www.ha.xinhuanet.com/hnxw/yljd/2015-10/09/c_1116762377.htm</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>juhua</string>
+		<key>desc</key>
+		<string>好一朵美丽的大菊花</string>
+		<key>url</key>
+		<string>http://www.ha.xinhuanet.com/hnxw/yljd/2015-10/09/c_1116762377.htm</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>15957016168678635841.jpg</string>
+		<key>desc</key>
+		<string>叙总参谋部:叙军队开始大举进攻恐怖分子阵地</string>
+		<key>url</key>
+		<string>https://www.baidu.com</string>
+	</dict>
+</array>
+</plist>

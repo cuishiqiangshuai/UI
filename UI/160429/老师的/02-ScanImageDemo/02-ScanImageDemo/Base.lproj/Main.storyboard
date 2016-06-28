@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1/10" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gxa-RY-A8u">
+                                <rect key="frame" x="159" y="67" width="57" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="shenjingbing.png" translatesAutoresizingMaskIntoConstraints="NO" id="U1U-gT-ORl">
+                                <rect key="frame" x="83" y="119" width="209" height="143"/>
+                                <animations/>
+                            </imageView>
+                            <button opaque="NO" tag="101" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JbN-Hq-2dT">
+                                <rect key="frame" x="15" y="167" width="48" height="48"/>
+                                <animations/>
+                                <state key="normal" image="left_normal.png"/>
+                                <state key="disabled" image="left_disable.png"/>
+                                <state key="highlighted" image="left_highlighted.png"/>
+                                <connections>
+                                    <action selector="btnClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hta-l5-jAQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="102" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lXl-DI-RqR">
+                                <rect key="frame" x="307" y="167" width="48" height="48"/>
+                                <animations/>
+                                <state key="normal" image="right_normal.png"/>
+                                <state key="disabled" image="right_disable.png"/>
+                                <state key="highlighted" image="right_highlighted.png"/>
+                                <connections>
+                                    <action selector="btnClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BTh-Ld-BNz"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uKh-VE-1o9">
+                                <rect key="frame" x="17" y="296" width="340" height="86"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L2L-VL-RhL">
+                                <rect key="frame" x="83" y="119" width="209" height="143"/>
+                                <animations/>
+                                <connections>
+                                    <action selector="gotoDetailInfo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FeB-yY-3c2"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="imageView" destination="U1U-gT-ORl" id="CAK-zB-NTD"/>
+                        <outlet property="infoLabel" destination="uKh-VE-1o9" id="8cq-nj-A4W"/>
+                        <outlet property="leftBtn" destination="JbN-Hq-2dT" id="EWz-O8-s9v"/>
+                        <outlet property="numLabel" destination="Gxa-RY-A8u" id="QNy-30-8YM"/>
+                        <outlet property="rightBtn" destination="lXl-DI-RqR" id="sdR-0h-TWr"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="374.5" y="337.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="left_disable.png" width="96" height="96"/>
+        <image name="left_highlighted.png" width="96" height="96"/>
+        <image name="left_normal.png" width="96" height="96"/>
+        <image name="right_disable.png" width="96" height="96"/>
+        <image name="right_highlighted.png" width="96" height="96"/>
+        <image name="right_normal.png" width="96" height="96"/>
+        <image name="shenjingbing.png" width="1280" height="960"/>
+    </resources>
+</document>

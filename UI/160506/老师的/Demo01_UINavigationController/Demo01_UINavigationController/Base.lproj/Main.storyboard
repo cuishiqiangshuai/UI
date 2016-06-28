@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="4dA-av-oot">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jal-ex-RFe">
+                                <rect key="frame" x="139" y="183" width="30" height="30"/>
+                                <animations/>
+                                <state key="normal" title="北京"/>
+                                <connections>
+                                    <segue destination="8fM-a4-tcs" kind="show" id="yBt-75-yqj"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rQi-qK-8zn">
+                                <rect key="frame" x="139" y="315" width="30" height="30"/>
+                                <animations/>
+                                <state key="normal" title="西安"/>
+                                <connections>
+                                    <segue destination="c7e-AS-Jc1" kind="show" id="RtD-hl-R3Y"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" red="1" green="0.52811942379999999" blue="0.31374074810000002" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="X0O-HW-KDo"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-95" y="400"/>
+        </scene>
+        <!--Two View Controller-->
+        <scene sceneID="xdr-cJ-loj">
+            <objects>
+                <viewController id="c7e-AS-Jc1" customClass="TwoViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Nl7-h9-9zr"/>
+                        <viewControllerLayoutGuide type="bottom" id="xVe-SK-Pab"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Xtq-lW-vHo">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" red="1" green="0.52182397391403423" blue="0.74521544473763313" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pmY-kE-sYg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="346" y="865"/>
+        </scene>
+        <!--One View Controller-->
+        <scene sceneID="6MG-Qw-bEQ">
+            <objects>
+                <viewController id="8fM-a4-tcs" customClass="OneViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="oEm-S5-N1W"/>
+                        <viewControllerLayoutGuide type="bottom" id="SSu-yg-jMw"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="5RO-4L-6Eu">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="wangwu" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zei-rC-SLD">
+                                <rect key="frame" x="108" y="298" width="64" height="21"/>
+                                <animations/>
+                                <color key="backgroundColor" red="1" green="0.52811942379999999" blue="0.31374074810000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="osA-Ku-KoK">
+                                <rect key="frame" x="134" y="157" width="30" height="30"/>
+                                <animations/>
+                                <state key="normal" title="走你">
+                                    <color key="titleColor" red="1" green="0.52811942379999999" blue="0.31374074810000002" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="r2E-X0-lLl" kind="show" id="IQa-d3-Qig"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" red="0.10959682530000001" green="0.15199848599999999" blue="0.6927765052" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rhb-Se-hgv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="346" y="228"/>
+        </scene>
+        <!--One1 View Controller-->
+        <scene sceneID="dkL-j3-oMG">
+            <objects>
+                <viewController id="r2E-X0-lLl" customClass="One1ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="2vk-T8-YGs"/>
+                        <viewControllerLayoutGuide type="bottom" id="EhC-bq-Mhe"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ILI-td-ag3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" red="0.52807361426012989" green="0.83737876887819218" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZEY-sX-nZa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="810" y="228"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="u3H-Hh-Izj">
+            <objects>
+                <navigationController id="4dA-av-oot" sceneMemberID="viewController">
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="fqc-dG-rnz">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="uyN-fS-rli"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MyB-cE-Vvi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-503" y="400"/>
+        </scene>
+    </scenes>
+</document>

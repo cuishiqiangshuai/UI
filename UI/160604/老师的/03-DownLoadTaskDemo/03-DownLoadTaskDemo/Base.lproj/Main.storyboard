@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Drw-N7-74c">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vwd-BU-clV">
+                                <rect key="frame" x="88" y="78" width="150" height="40"/>
+                                <animations/>
+                                <state key="normal" title="下载"/>
+                                <connections>
+                                    <segue destination="HUX-5F-O19" kind="show" id="deo-T1-PzR"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RE5-rY-aIB">
+                                <rect key="frame" x="98" y="143" width="150" height="40"/>
+                                <animations/>
+                                <state key="normal" title="监听下载进度"/>
+                                <connections>
+                                    <segue destination="qp8-ks-oM9" kind="show" id="Rpa-V4-xqB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jk7-rW-jY2">
+                                <rect key="frame" x="105" y="212" width="150" height="40"/>
+                                <animations/>
+                                <state key="normal" title="断点续传"/>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Pt9-Ld-7Xz"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="420.5" y="239.5"/>
+        </scene>
+        <!--Second View Controller-->
+        <scene sceneID="O5R-o2-xxC">
+            <objects>
+                <viewController id="qp8-ks-oM9" customClass="SecondViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="oC9-yV-gGT"/>
+                        <viewControllerLayoutGuide type="bottom" id="ybz-TC-g4m"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="UN8-d2-SEL">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NNO-k1-ukK">
+                                <rect key="frame" x="67" y="91" width="240" height="128"/>
+                                <animations/>
+                            </imageView>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="IYa-RA-pag">
+                                <rect key="frame" x="80" y="262" width="221" height="2"/>
+                                <animations/>
+                            </progressView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rFp-dP-EWl">
+                                <rect key="frame" x="105" y="309" width="125" height="30"/>
+                                <animations/>
+                                <state key="normal" title="下载"/>
+                                <connections>
+                                    <action selector="downLoadAction:" destination="qp8-ks-oM9" eventType="touchUpInside" id="u3m-Tu-heY"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="ProgressView" destination="IYa-RA-pag" id="6QB-ZP-L8E"/>
+                        <outlet property="tempImageView" destination="NNO-k1-ukK" id="ZUP-TK-qW8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Kvf-yE-0DY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="869.5" y="402.5"/>
+        </scene>
+        <!--First Down Load View Controller-->
+        <scene sceneID="czy-DT-ulr">
+            <objects>
+                <viewController id="HUX-5F-O19" customClass="FirstDownLoadViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="oT9-ha-fUy"/>
+                        <viewControllerLayoutGuide type="bottom" id="xQY-E3-SMp"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="dor-MH-cee">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7hw-gx-6ef">
+                                <rect key="frame" x="149" y="264" width="30" height="30"/>
+                                <animations/>
+                                <state key="normal" title="下载"/>
+                                <connections>
+                                    <action selector="DownLoadAction:" destination="HUX-5F-O19" eventType="touchUpInside" id="8Bh-bA-dQs"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="F6j-zs-Mbi">
+                                <rect key="frame" x="44" y="96" width="240" height="128"/>
+                                <animations/>
+                            </imageView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="tempImageView" destination="F6j-zs-Mbi" id="Pfd-le-xAf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eNg-7K-koJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="928.5" y="-350.5"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="1up-Ic-bJR">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Drw-N7-74c" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="wpz-7o-O1u">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="cAG-bH-GEg"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1hn-nn-1mw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="46.5" y="211.5"/>
+        </scene>
+    </scenes>
+</document>

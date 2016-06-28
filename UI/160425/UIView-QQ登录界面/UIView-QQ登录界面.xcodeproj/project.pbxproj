@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC5163601CCDCD180090158A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC51635F1CCDCD180090158A /* main.m */; };
+		CC5163631CCDCD180090158A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5163621CCDCD180090158A /* AppDelegate.m */; };
+		CC5163661CCDCD180090158A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5163651CCDCD180090158A /* ViewController.m */; };
+		CC5163691CCDCD180090158A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC5163671CCDCD180090158A /* Main.storyboard */; };
+		CC51636B1CCDCD180090158A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC51636A1CCDCD180090158A /* Assets.xcassets */; };
+		CC51636E1CCDCD180090158A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC51636C1CCDCD180090158A /* LaunchScreen.storyboard */; };
+		CC5163791CCDCD180090158A /* UIView_QQ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5163781CCDCD180090158A /* UIView_QQ____Tests.m */; };
+		CC5163841CCDCD180090158A /* UIView_QQ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5163831CCDCD180090158A /* UIView_QQ____UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC5163751CCDCD180090158A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC5163531CCDCD180090158A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC51635A1CCDCD180090158A;
+			remoteInfo = "UIView-QQ登录界面";
+		};
+		CC5163801CCDCD180090158A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC5163531CCDCD180090158A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC51635A1CCDCD180090158A;
+			remoteInfo = "UIView-QQ登录界面";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CC51635B1CCDCD180090158A /* UIView-QQ登录界面.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIView-QQ登录界面.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC51635F1CCDCD180090158A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CC5163611CCDCD180090158A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CC5163621CCDCD180090158A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CC5163641CCDCD180090158A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CC5163651CCDCD180090158A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CC5163681CCDCD180090158A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC51636A1CCDCD180090158A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC51636D1CCDCD180090158A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CC51636F1CCDCD180090158A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC5163741CCDCD180090158A /* UIView-QQ登录界面Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UIView-QQ登录界面Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC5163781CCDCD180090158A /* UIView_QQ____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView_QQ____Tests.m"; sourceTree = "<group>"; };
+		CC51637A1CCDCD180090158A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC51637F1CCDCD180090158A /* UIView-QQ登录界面UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UIView-QQ登录界面UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC5163831CCDCD180090158A /* UIView_QQ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView_QQ____UITests.m"; sourceTree = "<group>"; };
+		CC5163851CCDCD180090158A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC5163581CCDCD180090158A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC5163711CCDCD180090158A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC51637C1CCDCD180090158A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC5163521CCDCD180090158A = {
+			isa = PBXGroup;
+			children = (
+				CC51635D1CCDCD180090158A /* UIView-QQ登录界面 */,
+				CC5163771CCDCD180090158A /* UIView-QQ登录界面Tests */,
+				CC5163821CCDCD180090158A /* UIView-QQ登录界面UITests */,
+				CC51635C1CCDCD180090158A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC51635C1CCDCD180090158A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC51635B1CCDCD180090158A /* UIView-QQ登录界面.app */,
+				CC5163741CCDCD180090158A /* UIView-QQ登录界面Tests.xctest */,
+				CC51637F1CCDCD180090158A /* UIView-QQ登录界面UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC51635D1CCDCD180090158A /* UIView-QQ登录界面 */ = {
+			isa = PBXGroup;
+			children = (
+				CC5163611CCDCD180090158A /* AppDelegate.h */,
+				CC5163621CCDCD180090158A /* AppDelegate.m */,
+				CC5163641CCDCD180090158A /* ViewController.h */,
+				CC5163651CCDCD180090158A /* ViewController.m */,
+				CC5163671CCDCD180090158A /* Main.storyboard */,
+				CC51636A1CCDCD180090158A /* Assets.xcassets */,
+				CC51636C1CCDCD180090158A /* LaunchScreen.storyboard */,
+				CC51636F1CCDCD180090158A /* Info.plist */,
+				CC51635E1CCDCD180090158A /* Supporting Files */,
+			);
+			path = "UIView-QQ登录界面";
+			sourceTree = "<group>";
+		};
+		CC51635E1CCDCD180090158A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC51635F1CCDCD180090158A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CC5163771CCDCD180090158A /* UIView-QQ登录界面Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CC5163781CCDCD180090158A /* UIView_QQ____Tests.m */,
+				CC51637A1CCDCD180090158A /* Info.plist */,
+			);
+			path = "UIView-QQ登录界面Tests";
+			sourceTree = "<group>";
+		};
+		CC5163821CCDCD180090158A /* UIView-QQ登录界面UITests */ = {
+			isa = PBXGroup;
+			children = (
+				CC5163831CCDCD180090158A /* UIView_QQ____UITests.m */,
+				CC5163851CCDCD180090158A /* Info.plist */,
+			);
+			path = "UIView-QQ登录界面UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC51635A1CCDCD180090158A /* UIView-QQ登录界面 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC5163881CCDCD180090158A /* Build configuration list for PBXNativeTarget "UIView-QQ登录界面" */;
+			buildPhases = (
+				CC5163571CCDCD180090158A /* Sources */,
+				CC5163581CCDCD180090158A /* Frameworks */,
+				CC5163591CCDCD180090158A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UIView-QQ登录界面";
+			productName = "UIView-QQ登录界面";
+			productReference = CC51635B1CCDCD180090158A /* UIView-QQ登录界面.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC5163731CCDCD180090158A /* UIView-QQ登录界面Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC51638B1CCDCD180090158A /* Build configuration list for PBXNativeTarget "UIView-QQ登录界面Tests" */;
+			buildPhases = (
+				CC5163701CCDCD180090158A /* Sources */,
+				CC5163711CCDCD180090158A /* Frameworks */,
+				CC5163721CCDCD180090158A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC5163761CCDCD180090158A /* PBXTargetDependency */,
+			);
+			name = "UIView-QQ登录界面Tests";
+			productName = "UIView-QQ登录界面Tests";
+			productReference = CC5163741CCDCD180090158A /* UIView-QQ登录界面Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CC51637E1CCDCD180090158A /* UIView-QQ登录界面UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC51638E1CCDCD180090158A /* Build configuration list for PBXNativeTarget "UIView-QQ登录界面UITests" */;
+			buildPhases = (
+				CC51637B1CCDCD180090158A /* Sources */,
+				CC51637C1CCDCD180090158A /* Frameworks */,
+				CC51637D1CCDCD180090158A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC5163811CCDCD180090158A /* PBXTargetDependency */,
+			);
+			name = "UIView-QQ登录界面UITests";
+			productName = "UIView-QQ登录界面UITests";
+			productReference = CC51637F1CCDCD180090158A /* UIView-QQ登录界面UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC5163531CCDCD180090158A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = qingyun;
+				TargetAttributes = {
+					CC51635A1CCDCD180090158A = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					CC5163731CCDCD180090158A = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = CC51635A1CCDCD180090158A;
+					};
+					CC51637E1CCDCD180090158A = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = CC51635A1CCDCD180090158A;
+					};
+				};
+			};
+			buildConfigurationList = CC5163561CCDCD180090158A /* Build configuration list for PBXProject "UIView-QQ登录界面" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC5163521CCDCD180090158A;
+			productRefGroup = CC51635C1CCDCD180090158A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC51635A1CCDCD180090158A /* UIView-QQ登录界面 */,
+				CC5163731CCDCD180090158A /* UIView-QQ登录界面Tests */,
+				CC51637E1CCDCD180090158A /* UIView-QQ登录界面UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC5163591CCDCD180090158A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC51636E1CCDCD180090158A /* LaunchScreen.storyboard in Resources */,
+				CC51636B1CCDCD180090158A /* Assets.xcassets in Resources */,
+				CC5163691CCDCD180090158A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC5163721CCDCD180090158A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC51637D1CCDCD180090158A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC5163571CCDCD180090158A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC5163661CCDCD180090158A /* ViewController.m in Sources */,
+				CC5163631CCDCD180090158A /* AppDelegate.m in Sources */,
+				CC5163601CCDCD180090158A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC5163701CCDCD180090158A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC5163791CCDCD180090158A /* UIView_QQ____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC51637B1CCDCD180090158A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC5163841CCDCD180090158A /* UIView_QQ____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC5163761CCDCD180090158A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC51635A1CCDCD180090158A /* UIView-QQ登录界面 */;
+			targetProxy = CC5163751CCDCD180090158A /* PBXContainerItemProxy */;
+		};
+		CC5163811CCDCD180090158A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC51635A1CCDCD180090158A /* UIView-QQ登录界面 */;
+			targetProxy = CC5163801CCDCD180090158A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CC5163671CCDCD180090158A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC5163681CCDCD180090158A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CC51636C1CCDCD180090158A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC51636D1CCDCD180090158A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC5163861CCDCD180090158A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CC5163871CCDCD180090158A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC5163891CCDCD180090158A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "UIView-QQ登录界面/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qingyun.UIView-QQ----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CC51638A1CCDCD180090158A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "UIView-QQ登录界面/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qingyun.UIView-QQ----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CC51638C1CCDCD180090158A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "UIView-QQ登录界面Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qingyun.UIView-QQ----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIView-QQ登录界面.app/UIView-QQ登录界面";
+			};
+			name = Debug;
+		};
+		CC51638D1CCDCD180090158A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "UIView-QQ登录界面Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qingyun.UIView-QQ----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIView-QQ登录界面.app/UIView-QQ登录界面";
+			};
+			name = Release;
+		};
+		CC51638F1CCDCD180090158A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "UIView-QQ登录界面UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qingyun.UIView-QQ----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "UIView-QQ登录界面";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CC5163901CCDCD180090158A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "UIView-QQ登录界面UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qingyun.UIView-QQ----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "UIView-QQ登录界面";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC5163561CCDCD180090158A /* Build configuration list for PBXProject "UIView-QQ登录界面" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC5163861CCDCD180090158A /* Debug */,
+				CC5163871CCDCD180090158A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC5163881CCDCD180090158A /* Build configuration list for PBXNativeTarget "UIView-QQ登录界面" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC5163891CCDCD180090158A /* Debug */,
+				CC51638A1CCDCD180090158A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CC51638B1CCDCD180090158A /* Build configuration list for PBXNativeTarget "UIView-QQ登录界面Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC51638C1CCDCD180090158A /* Debug */,
+				CC51638D1CCDCD180090158A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CC51638E1CCDCD180090158A /* Build configuration list for PBXNativeTarget "UIView-QQ登录界面UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC51638F1CCDCD180090158A /* Debug */,
+				CC5163901CCDCD180090158A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC5163531CCDCD180090158A /* Project object */;
+}

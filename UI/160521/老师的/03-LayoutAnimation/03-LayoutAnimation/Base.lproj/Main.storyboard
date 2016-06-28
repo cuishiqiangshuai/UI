@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RNw-SA-cWO">
+                                <rect key="frame" x="70" y="-200" width="200" height="300"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IUf-es-c0F">
+                                        <rect key="frame" x="85" y="262" width="30" height="30"/>
+                                        <animations/>
+                                        <state key="normal" title="滚动"/>
+                                        <connections>
+                                            <action selector="move:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IyF-Wx-nqt"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <animations/>
+                                <color key="backgroundColor" red="0.52807361429999999" green="0.83737876889999996" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="8tt-Fk-Bp2"/>
+                                    <constraint firstItem="IUf-es-c0F" firstAttribute="bottom" secondItem="RNw-SA-cWO" secondAttribute="bottomMargin" id="HVf-Y5-H5Q"/>
+                                    <constraint firstAttribute="height" constant="300" id="M7q-LP-eol"/>
+                                    <constraint firstItem="IUf-es-c0F" firstAttribute="centerX" secondItem="RNw-SA-cWO" secondAttribute="centerX" id="w07-Qr-bqT"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="RNw-SA-cWO" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="-220" id="91o-59-OzM"/>
+                            <constraint firstItem="RNw-SA-cWO" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="50" id="hvb-1Q-9Iz"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="topConstraint" destination="91o-59-OzM" id="Vi8-LA-y7U"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

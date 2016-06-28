@@ -1,0 +1,214 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<style>
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Helvetica Neue", Helvetica, "Hiragino Sans GB", Arial, sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    color: #737373;
+    background-color: white;
+    margin: 10px 13px 10px 13px;
+}
+table {
+	margin: 10px 0 15px 0;
+	border-collapse: collapse;
+}
+td,th {	
+	border: 1px solid #ddd;
+	padding: 3px 10px;
+}
+th {
+	padding: 5px 10px;	
+}
+
+a {
+    color: #0069d6;
+}
+a:hover {
+    color: #0050a3;
+    text-decoration: none;
+}
+a img {
+    border: none;
+}
+p {
+    margin-bottom: 9px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #404040;
+    line-height: 36px;
+}
+h1 {
+    margin-bottom: 18px;
+    font-size: 30px;
+}
+h2 {
+    font-size: 24px;
+}
+h3 {
+    font-size: 18px;
+}
+h4 {
+    font-size: 16px;
+}
+h5 {
+    font-size: 14px;
+}
+h6 {
+    font-size: 13px;
+}
+hr {
+    margin: 0 0 19px;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+}
+blockquote {
+    padding: 13px 13px 21px 15px;
+    margin-bottom: 18px;
+    font-family:georgia,serif;
+    font-style: italic;
+}
+blockquote:before {
+    content:"\201C";
+    font-size:40px;
+    margin-left:-10px;
+    font-family:georgia,serif;
+    color:#eee;
+}
+blockquote p {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 18px;
+    margin-bottom: 0;
+    font-style: italic;
+}
+code, pre {
+    font-family: Monaco, Andale Mono, Courier New, monospace;
+}
+code {
+    background-color: #fee9cc;
+    color: rgba(0, 0, 0, 0.75);
+    padding: 1px 3px;
+    font-size: 12px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+pre {
+    display: block;
+    padding: 14px;
+    margin: 0 0 18px;
+    line-height: 16px;
+    font-size: 11px;
+    border: 1px solid #d9d9d9;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+pre code {
+    background-color: #fff;
+    color:#737373;
+    font-size: 11px;
+    padding: 0;
+}
+sup {
+    font-size: 0.83em;
+    vertical-align: super;
+    line-height: 0;
+}
+* {
+	-webkit-print-color-adjust: exact;
+}
+@media screen and (min-width: 914px) {
+    body {
+        width: 854px;
+        margin:10px auto;
+    }
+}
+@media print {
+	body,code,pre code,h1,h2,h3,h4,h5,h6 {
+		color: black;
+	}
+	table, pre {
+		page-break-inside: avoid;
+	}
+}
+</style>
+<title>学习目标：</title>
+
+</head>
+<body>
+<h1>Git作业</h1>
+
+<h1>学习目标：</h1>
+
+<ol>
+<li>掌握Git的基本操作，包括仓库初始化（git init），添加到暂存区（git add），提交（git commit），查看日志（git log），查看状态（git status），查看改变的内容（git diff），移除文件（git rm），重命名文件（git mv）</li>
+<li>掌握Git的撤销操作，包括撤销工作区文件的修改（git checkout -- 和 git stash），把修改从暂存区撤回到工作区（git reset HEAD）</li>
+<li>掌握如何打tag和查看tag（git tag）</li>
+<li>知道Git的配置文件为~/.gitconfig，掌握如何添加忽略规则(.gitignore)</li>
+<li>了解Git的分支原理，掌握如何创建(git br <branchName>)、切换(git co <branchName>)、删除(git br -d/-D <branchName>)、合并分支（git merge <branchName>）</li>
+<li>掌握Git的远端操作，包括克隆（git clone）、添加（git remote add）、推送（git push）、拉取（git pull）</li>
+</ol>
+
+
+<h1>作业要求</h1>
+
+<ol>
+<li>创建目录<code>hacker</code>，模拟用户<code>hacker</code>，并进入该目录</li>
+<li>创建目录 <code>calculator</code>，并进入该目录</li>
+<li>用Git来管理（初始化）该<code>calculator</code>项目</li>
+<li><p>创建REAME.md文件，并编辑内容如下</p>
+
+<pre><code> 这是一个计算器项目，可以进行加、减、乘、除操作。
+</code></pre></li>
+<li>用Git跟踪该文件</li>
+<li>建立一个远端裸仓库<code>calculator.git</code></li>
+<li>添加跟远端裸仓库的关联</li>
+<li>将本地的提交推送到远端裸仓库</li>
+<li>创建目录<code>zhangsan</code>，模拟另一个开发者<code>zhangsan</code></li>
+<li>进入<code>zhangsan</code>目录，并从远端裸仓库克隆项目</li>
+<li><code>zhangsan</code>创建add.c文件，并编写 <code>int add(int a, int b);</code>函数</li>
+<li><code>zhangsan</code>本地添加并提交add.c文件</li>
+<li><code>zhangsan</code>将本地提交的内容推送到远端裸仓库</li>
+<li>创建目录<code>lisi</code>，模拟另一个开发者<code>lisi</code></li>
+<li><code>lisi</code>创建minus.c文件，并编写<code>int minus(int a, int b);</code>函数</li>
+<li><code>lisi</code>本地提交并推送到远端裸仓库</li>
+<li>创建目录<code>wangwu</code>，模拟另一个开发者<code>wangwu</code></li>
+<li><code>wangwu</code>创建multiply.c文件，并编写<code>int multiply(int a, int b);</code>函数</li>
+<li><code>wangwu</code>本地提交并推送到远端裸仓库</li>
+<li>再次进入用户<code>hacker</code>的目录<code>calculator</code>，更新远端裸仓库上的所有更新</li>
+<li>创建并切换到新分支<code>test</code>，并在该分支下创建main.c文件，并编辑该文件</li>
+<li>本地提交本次操作</li>
+<li>切换到<code>master</code>分支，创建devide.c文件，并编写<code>int devive(int a, int b);</code>函数</li>
+<li>本地提交本次操作</li>
+<li>合并<code>test</code>分支，合并成功后，删除<code>test</code>分支</li>
+<li>创建并切换到<code>bugfix</code>分支，并修改devide.c文件中的函数类型为<code>double devive(double a, double b);</code></li>
+<li>本地提交本次修改</li>
+<li>切换到master分支，并修改devide.c文件中的函数类型为<code>int devide(int a, int b);</code></li>
+<li>本地提交本次修改</li>
+<li>合并<code>bugfix</code>分支，会遇到冲突，解决完冲突之后，再次提交</li>
+<li>删除本地<code>bugfix</code> 分支</li>
+<li>将<code>hacker</code>本地的修改，推送到服务器上，并更新<code>zhangsan</code>、<code>lisi</code>、<code>wangwu</code>各自的内容</li>
+</ol>
+
+</body>
+</html>

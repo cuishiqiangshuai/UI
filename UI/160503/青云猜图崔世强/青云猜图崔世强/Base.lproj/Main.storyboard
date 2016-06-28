@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bj.png" translatesAutoresizingMaskIntoConstraints="NO" id="P2r-fi-hLq">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <animations/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="好莱坞大片" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XBZ-yj-ruw">
+                                <rect key="frame" x="43" y="92" width="288" height="48"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="afanda.png" translatesAutoresizingMaskIntoConstraints="NO" id="UUw-8G-yXj">
+                                <rect key="frame" x="67" y="157" width="240" height="183"/>
+                                <animations/>
+                            </imageView>
+                            <button opaque="NO" tag="110" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UPI-qF-BRf">
+                                <rect key="frame" x="0.0" y="182" width="49" height="29"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <state key="normal" title="提示" image="icon_tip.png" backgroundImage="btn_left.png"/>
+                                <state key="highlighted" backgroundImage="btn_left_highlighted.png"/>
+                                <connections>
+                                    <action selector="BtnClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SCg-d6-20F"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="101" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qw3-e0-p0E">
+                                <rect key="frame" x="0.0" y="268" width="49" height="32"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                <state key="normal" title="大图" image="icon_img.png" backgroundImage="btn_left.png"/>
+                                <state key="highlighted" backgroundImage="btn_left_highlighted.png"/>
+                                <connections>
+                                    <action selector="BtnClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CgO-Im-2Qo"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="104" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xsg-95-ii3">
+                                <rect key="frame" x="329" y="181" width="46" height="30"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <state key="normal" title="帮助" image="icon_help.png" backgroundImage="btn_right.png"/>
+                                <state key="highlighted" backgroundImage="btn_right_highlighted.png"/>
+                                <connections>
+                                    <action selector="BtnClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tMT-Ml-zwI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="105" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="right" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eeZ-Ut-gPc">
+                                <rect key="frame" x="287" y="24" width="83" height="22"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                <state key="normal" title="10000" image="coin.png"/>
+                            </button>
+                            <button opaque="NO" tag="103" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d32-lq-STv">
+                                <rect key="frame" x="329" y="268" width="46" height="31"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <state key="normal" title="下一题" backgroundImage="btn_right.png">
+                                    <color key="titleColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <state key="highlighted" backgroundImage="btn_right_highlighted.png"/>
+                                <connections>
+                                    <action selector="BtnClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JX4-4N-6Qy"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1/10" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vdt-P7-G5p">
+                                <rect key="frame" x="166" y="51" width="42" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="coinBtn" destination="eeZ-Ut-gPc" id="fSx-s5-hre"/>
+                        <outlet property="iconView" destination="UUw-8G-yXj" id="ZfF-0n-Mrq"/>
+                        <outlet property="nextBtn" destination="d32-lq-STv" id="3Z9-Kx-i1S"/>
+                        <outlet property="numLabel" destination="vdt-P7-G5p" id="i1N-vF-Npm"/>
+                        <outlet property="titleLabel" destination="XBZ-yj-ruw" id="K77-KR-M5V"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="304.5" y="429.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="afanda.png" width="640" height="702"/>
+        <image name="bj.png" width="320" height="480"/>
+        <image name="btn_left.png" width="70" height="36"/>
+        <image name="btn_left_highlighted.png" width="70" height="36"/>
+        <image name="btn_right.png" width="70" height="36"/>
+        <image name="btn_right_highlighted.png" width="70" height="36"/>
+        <image name="coin.png" width="20" height="20"/>
+        <image name="icon_help.png" width="20" height="20"/>
+        <image name="icon_img.png" width="20" height="20"/>
+        <image name="icon_tip.png" width="20" height="20"/>
+    </resources>
+</document>

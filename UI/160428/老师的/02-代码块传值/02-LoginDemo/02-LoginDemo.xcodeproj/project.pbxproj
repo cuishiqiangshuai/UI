@@ -1,0 +1,341 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC4071B01CD095CD0035E8BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4071AF1CD095CD0035E8BF /* main.m */; };
+		CC4071B31CD095CD0035E8BF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4071B21CD095CD0035E8BF /* AppDelegate.m */; };
+		CC4071B61CD095CD0035E8BF /* LoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4071B51CD095CD0035E8BF /* LoginVC.m */; };
+		CC4071B91CD095CD0035E8BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC4071B71CD095CD0035E8BF /* Main.storyboard */; };
+		CC4071BB1CD095CD0035E8BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC4071BA1CD095CD0035E8BF /* Assets.xcassets */; };
+		CC4071BE1CD095CD0035E8BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC4071BC1CD095CD0035E8BF /* LaunchScreen.storyboard */; };
+		CC4071C91CD0963D0035E8BF /* btnLoginImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC4071C61CD0963D0035E8BF /* btnLoginImage@2x.png */; };
+		CC4071CA1CD0963D0035E8BF /* login_bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC4071C71CD0963D0035E8BF /* login_bg.jpg */; };
+		CC4071CB1CD0963D0035E8BF /* login_bg@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC4071C81CD0963D0035E8BF /* login_bg@2x.jpg */; };
+		CC4071CE1CD0974C0035E8BF /* UserInfoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4071CD1CD0974C0035E8BF /* UserInfoVC.m */; };
+		CC5BAD8C1CD1E2230013B4A6 /* ChangeUserInfoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5BAD8B1CD1E2230013B4A6 /* ChangeUserInfoVC.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CC4071AB1CD095CD0035E8BF /* 02-LoginDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "02-LoginDemo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC4071AF1CD095CD0035E8BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CC4071B11CD095CD0035E8BF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CC4071B21CD095CD0035E8BF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CC4071B41CD095CD0035E8BF /* LoginVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginVC.h; sourceTree = "<group>"; };
+		CC4071B51CD095CD0035E8BF /* LoginVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginVC.m; sourceTree = "<group>"; };
+		CC4071B81CD095CD0035E8BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC4071BA1CD095CD0035E8BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC4071BD1CD095CD0035E8BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CC4071BF1CD095CD0035E8BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC4071C61CD0963D0035E8BF /* btnLoginImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btnLoginImage@2x.png"; sourceTree = "<group>"; };
+		CC4071C71CD0963D0035E8BF /* login_bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = login_bg.jpg; sourceTree = "<group>"; };
+		CC4071C81CD0963D0035E8BF /* login_bg@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "login_bg@2x.jpg"; sourceTree = "<group>"; };
+		CC4071CC1CD0974C0035E8BF /* UserInfoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfoVC.h; sourceTree = "<group>"; };
+		CC4071CD1CD0974C0035E8BF /* UserInfoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfoVC.m; sourceTree = "<group>"; };
+		CC5BAD8A1CD1E2230013B4A6 /* ChangeUserInfoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChangeUserInfoVC.h; sourceTree = "<group>"; };
+		CC5BAD8B1CD1E2230013B4A6 /* ChangeUserInfoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChangeUserInfoVC.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC4071A81CD095CD0035E8BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC4071A21CD095CD0035E8BF = {
+			isa = PBXGroup;
+			children = (
+				CC4071AD1CD095CD0035E8BF /* 02-LoginDemo */,
+				CC4071AC1CD095CD0035E8BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC4071AC1CD095CD0035E8BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC4071AB1CD095CD0035E8BF /* 02-LoginDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC4071AD1CD095CD0035E8BF /* 02-LoginDemo */ = {
+			isa = PBXGroup;
+			children = (
+				CC4071B11CD095CD0035E8BF /* AppDelegate.h */,
+				CC4071B21CD095CD0035E8BF /* AppDelegate.m */,
+				CC4071B41CD095CD0035E8BF /* LoginVC.h */,
+				CC4071B51CD095CD0035E8BF /* LoginVC.m */,
+				CC4071CC1CD0974C0035E8BF /* UserInfoVC.h */,
+				CC4071CD1CD0974C0035E8BF /* UserInfoVC.m */,
+				CC5BAD8A1CD1E2230013B4A6 /* ChangeUserInfoVC.h */,
+				CC5BAD8B1CD1E2230013B4A6 /* ChangeUserInfoVC.m */,
+				CC4071B71CD095CD0035E8BF /* Main.storyboard */,
+				CC4071BA1CD095CD0035E8BF /* Assets.xcassets */,
+				CC4071BC1CD095CD0035E8BF /* LaunchScreen.storyboard */,
+				CC4071BF1CD095CD0035E8BF /* Info.plist */,
+				CC4071AE1CD095CD0035E8BF /* Supporting Files */,
+			);
+			path = "02-LoginDemo";
+			sourceTree = "<group>";
+		};
+		CC4071AE1CD095CD0035E8BF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC4071C51CD0963D0035E8BF /* login */,
+				CC4071AF1CD095CD0035E8BF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CC4071C51CD0963D0035E8BF /* login */ = {
+			isa = PBXGroup;
+			children = (
+				CC4071C61CD0963D0035E8BF /* btnLoginImage@2x.png */,
+				CC4071C71CD0963D0035E8BF /* login_bg.jpg */,
+				CC4071C81CD0963D0035E8BF /* login_bg@2x.jpg */,
+			);
+			path = login;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC4071AA1CD095CD0035E8BF /* 02-LoginDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC4071C21CD095CD0035E8BF /* Build configuration list for PBXNativeTarget "02-LoginDemo" */;
+			buildPhases = (
+				CC4071A71CD095CD0035E8BF /* Sources */,
+				CC4071A81CD095CD0035E8BF /* Frameworks */,
+				CC4071A91CD095CD0035E8BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "02-LoginDemo";
+			productName = "02-LoginDemo";
+			productReference = CC4071AB1CD095CD0035E8BF /* 02-LoginDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC4071A31CD095CD0035E8BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = QingYun;
+				TargetAttributes = {
+					CC4071AA1CD095CD0035E8BF = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = GGG24ADHBE;
+					};
+				};
+			};
+			buildConfigurationList = CC4071A61CD095CD0035E8BF /* Build configuration list for PBXProject "02-LoginDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC4071A21CD095CD0035E8BF;
+			productRefGroup = CC4071AC1CD095CD0035E8BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC4071AA1CD095CD0035E8BF /* 02-LoginDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC4071A91CD095CD0035E8BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC4071BE1CD095CD0035E8BF /* LaunchScreen.storyboard in Resources */,
+				CC4071CA1CD0963D0035E8BF /* login_bg.jpg in Resources */,
+				CC4071C91CD0963D0035E8BF /* btnLoginImage@2x.png in Resources */,
+				CC4071BB1CD095CD0035E8BF /* Assets.xcassets in Resources */,
+				CC4071B91CD095CD0035E8BF /* Main.storyboard in Resources */,
+				CC4071CB1CD0963D0035E8BF /* login_bg@2x.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC4071A71CD095CD0035E8BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC4071B61CD095CD0035E8BF /* LoginVC.m in Sources */,
+				CC4071B31CD095CD0035E8BF /* AppDelegate.m in Sources */,
+				CC5BAD8C1CD1E2230013B4A6 /* ChangeUserInfoVC.m in Sources */,
+				CC4071B01CD095CD0035E8BF /* main.m in Sources */,
+				CC4071CE1CD0974C0035E8BF /* UserInfoVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CC4071B71CD095CD0035E8BF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC4071B81CD095CD0035E8BF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CC4071BC1CD095CD0035E8BF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC4071BD1CD095CD0035E8BF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC4071C01CD095CD0035E8BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CC4071C11CD095CD0035E8BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC4071C31CD095CD0035E8BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "02-LoginDemo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Qingyun.-2-LoginDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CC4071C41CD095CD0035E8BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "02-LoginDemo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Qingyun.-2-LoginDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC4071A61CD095CD0035E8BF /* Build configuration list for PBXProject "02-LoginDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC4071C01CD095CD0035E8BF /* Debug */,
+				CC4071C11CD095CD0035E8BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC4071C21CD095CD0035E8BF /* Build configuration list for PBXNativeTarget "02-LoginDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC4071C31CD095CD0035E8BF /* Debug */,
+				CC4071C41CD095CD0035E8BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC4071A31CD095CD0035E8BF /* Project object */;
+}

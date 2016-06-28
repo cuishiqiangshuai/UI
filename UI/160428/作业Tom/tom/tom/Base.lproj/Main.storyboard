@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="angry_00.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="EYm-49-n88">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <animations/>
+                            </imageView>
+                            <button opaque="NO" tag="101" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Wl-B2-NlT">
+                                <rect key="frame" x="242" y="559" width="67" height="30"/>
+                                <animations/>
+                                <state key="normal" title="angry"/>
+                                <connections>
+                                    <action selector="yunxing:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oYK-nb-Gig"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="102" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5da-ph-Cdc">
+                                <rect key="frame" x="155" y="215" width="64" height="30"/>
+                                <animations/>
+                                <state key="normal" title="knockout"/>
+                                <connections>
+                                    <action selector="yunxing:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aZC-ct-jpS"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="108" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FzJ-6S-KXf">
+                                <rect key="frame" x="277" y="310" width="78" height="46"/>
+                                <animations/>
+                                <state key="normal" image="cynbals.png"/>
+                                <connections>
+                                    <action selector="yunxing:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SfS-9z-slu"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="107" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pqh-w9-GR0">
+                                <rect key="frame" x="286" y="388" width="60" height="60"/>
+                                <animations/>
+                                <state key="normal" image="milk.png"/>
+                                <connections>
+                                    <action selector="yunxing:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Thw-2U-xoi"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="106" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PGG-9K-FxD">
+                                <rect key="frame" x="20" y="388" width="60" height="60"/>
+                                <animations/>
+                                <state key="normal" image="fart.png"/>
+                                <connections>
+                                    <action selector="yunxing:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lek-Do-KqC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="109" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tj7-1z-EOt">
+                                <rect key="frame" x="20" y="469" width="60" height="60"/>
+                                <animations/>
+                                <state key="normal" image="pie.png"/>
+                                <connections>
+                                    <action selector="yunxing:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6jq-Fd-lGg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="105" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Kw-Ur-7Ng">
+                                <rect key="frame" x="111" y="611" width="72" height="30"/>
+                                <animations/>
+                                <state key="normal" title="foot_right"/>
+                                <connections>
+                                    <action selector="yunxing:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aVk-8U-qYl"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="104" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2vz-Ek-NQc">
+                                <rect key="frame" x="199" y="611" width="79" height="30"/>
+                                <animations/>
+                                <state key="normal" title="foot_left"/>
+                                <connections>
+                                    <action selector="yunxing:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JBu-Rj-Avm"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="103" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i7n-9c-w8n">
+                                <rect key="frame" x="155" y="506" width="64" height="30"/>
+                                <animations/>
+                                <state key="normal" title="stomach"/>
+                                <connections>
+                                    <action selector="yunxing:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mbZ-WE-A5s"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="110" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jst-Gl-ZKl">
+                                <rect key="frame" x="27" y="569" width="60" height="60"/>
+                                <animations/>
+                                <state key="normal" image="pawn.png"/>
+                                <connections>
+                                    <action selector="yunxing:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YHw-DW-8RD"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="111" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f0y-f2-Y2F">
+                                <rect key="frame" x="295" y="491" width="60" height="60"/>
+                                <animations/>
+                                <state key="normal" image="larry.png"/>
+                                <connections>
+                                    <action selector="yunxing:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fpk-nP-sq4"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="Tom" destination="EYm-49-n88" id="IMe-Bb-bIE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="431.5" y="435.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="angry_00.jpg" width="640" height="1024"/>
+        <image name="cynbals.png" width="60" height="60"/>
+        <image name="fart.png" width="60" height="60"/>
+        <image name="larry.png" width="60" height="60"/>
+        <image name="milk.png" width="60" height="60"/>
+        <image name="pawn.png" width="60" height="60"/>
+        <image name="pie.png" width="60" height="60"/>
+    </resources>
+</document>

@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC34D1471CD2062200B4B3B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC34D1461CD2062200B4B3B4 /* main.m */; };
+		CC34D14A1CD2062200B4B3B4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC34D1491CD2062200B4B3B4 /* AppDelegate.m */; };
+		CC34D14D1CD2062200B4B3B4 /* LoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CC34D14C1CD2062200B4B3B4 /* LoginVC.m */; };
+		CC34D1501CD2062200B4B3B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC34D14E1CD2062200B4B3B4 /* Main.storyboard */; };
+		CC34D1521CD2062200B4B3B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC34D1511CD2062200B4B3B4 /* Assets.xcassets */; };
+		CC34D1551CD2062200B4B3B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC34D1531CD2062200B4B3B4 /* LaunchScreen.storyboard */; };
+		CC34D1601CD2062200B4B3B4 /* UI_LoginDemoWithSegueTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC34D15F1CD2062200B4B3B4 /* UI_LoginDemoWithSegueTests.m */; };
+		CC34D16B1CD2062200B4B3B4 /* UI_LoginDemoWithSegueUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC34D16A1CD2062200B4B3B4 /* UI_LoginDemoWithSegueUITests.m */; };
+		CC34D17C1CD2068E00B4B3B4 /* btnLoginImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC34D1791CD2068E00B4B3B4 /* btnLoginImage@2x.png */; };
+		CC34D17D1CD2068E00B4B3B4 /* login_bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC34D17A1CD2068E00B4B3B4 /* login_bg.jpg */; };
+		CC34D17E1CD2068E00B4B3B4 /* login_bg@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC34D17B1CD2068E00B4B3B4 /* login_bg@2x.jpg */; };
+		CCEAC0AA1CD7795700EA6815 /* UserInfoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CCEAC0A91CD7795700EA6815 /* UserInfoVC.m */; };
+		CCEAC0AD1CD77CD600EA6815 /* QYStoryBoardSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = CCEAC0AC1CD77CD600EA6815 /* QYStoryBoardSegue.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC34D15C1CD2062200B4B3B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC34D13A1CD2062200B4B3B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC34D1411CD2062200B4B3B4;
+			remoteInfo = "UI-LoginDemoWithSegue";
+		};
+		CC34D1671CD2062200B4B3B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC34D13A1CD2062200B4B3B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC34D1411CD2062200B4B3B4;
+			remoteInfo = "UI-LoginDemoWithSegue";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CC34D1421CD2062200B4B3B4 /* UI-LoginDemoWithSegue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UI-LoginDemoWithSegue.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC34D1461CD2062200B4B3B4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CC34D1481CD2062200B4B3B4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CC34D1491CD2062200B4B3B4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CC34D14B1CD2062200B4B3B4 /* LoginVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginVC.h; sourceTree = "<group>"; };
+		CC34D14C1CD2062200B4B3B4 /* LoginVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginVC.m; sourceTree = "<group>"; };
+		CC34D14F1CD2062200B4B3B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC34D1511CD2062200B4B3B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC34D1541CD2062200B4B3B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CC34D1561CD2062200B4B3B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC34D15B1CD2062200B4B3B4 /* UI-LoginDemoWithSegueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UI-LoginDemoWithSegueTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC34D15F1CD2062200B4B3B4 /* UI_LoginDemoWithSegueTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UI_LoginDemoWithSegueTests.m; sourceTree = "<group>"; };
+		CC34D1611CD2062200B4B3B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC34D1661CD2062200B4B3B4 /* UI-LoginDemoWithSegueUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UI-LoginDemoWithSegueUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC34D16A1CD2062200B4B3B4 /* UI_LoginDemoWithSegueUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UI_LoginDemoWithSegueUITests.m; sourceTree = "<group>"; };
+		CC34D16C1CD2062200B4B3B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC34D1791CD2068E00B4B3B4 /* btnLoginImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btnLoginImage@2x.png"; sourceTree = "<group>"; };
+		CC34D17A1CD2068E00B4B3B4 /* login_bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = login_bg.jpg; sourceTree = "<group>"; };
+		CC34D17B1CD2068E00B4B3B4 /* login_bg@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "login_bg@2x.jpg"; sourceTree = "<group>"; };
+		CCEAC0A81CD7795700EA6815 /* UserInfoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfoVC.h; sourceTree = "<group>"; };
+		CCEAC0A91CD7795700EA6815 /* UserInfoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfoVC.m; sourceTree = "<group>"; };
+		CCEAC0AB1CD77CD600EA6815 /* QYStoryBoardSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYStoryBoardSegue.h; sourceTree = "<group>"; };
+		CCEAC0AC1CD77CD600EA6815 /* QYStoryBoardSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYStoryBoardSegue.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC34D13F1CD2062200B4B3B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC34D1581CD2062200B4B3B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC34D1631CD2062200B4B3B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC34D1391CD2062200B4B3B4 = {
+			isa = PBXGroup;
+			children = (
+				CC34D1441CD2062200B4B3B4 /* UI-LoginDemoWithSegue */,
+				CC34D15E1CD2062200B4B3B4 /* UI-LoginDemoWithSegueTests */,
+				CC34D1691CD2062200B4B3B4 /* UI-LoginDemoWithSegueUITests */,
+				CC34D1431CD2062200B4B3B4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC34D1431CD2062200B4B3B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC34D1421CD2062200B4B3B4 /* UI-LoginDemoWithSegue.app */,
+				CC34D15B1CD2062200B4B3B4 /* UI-LoginDemoWithSegueTests.xctest */,
+				CC34D1661CD2062200B4B3B4 /* UI-LoginDemoWithSegueUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC34D1441CD2062200B4B3B4 /* UI-LoginDemoWithSegue */ = {
+			isa = PBXGroup;
+			children = (
+				CC34D1481CD2062200B4B3B4 /* AppDelegate.h */,
+				CC34D1491CD2062200B4B3B4 /* AppDelegate.m */,
+				CC34D14B1CD2062200B4B3B4 /* LoginVC.h */,
+				CC34D14C1CD2062200B4B3B4 /* LoginVC.m */,
+				CCEAC0A81CD7795700EA6815 /* UserInfoVC.h */,
+				CCEAC0A91CD7795700EA6815 /* UserInfoVC.m */,
+				CCEAC0AB1CD77CD600EA6815 /* QYStoryBoardSegue.h */,
+				CCEAC0AC1CD77CD600EA6815 /* QYStoryBoardSegue.m */,
+				CC34D14E1CD2062200B4B3B4 /* Main.storyboard */,
+				CC34D1511CD2062200B4B3B4 /* Assets.xcassets */,
+				CC34D1531CD2062200B4B3B4 /* LaunchScreen.storyboard */,
+				CC34D1561CD2062200B4B3B4 /* Info.plist */,
+				CC34D1451CD2062200B4B3B4 /* Supporting Files */,
+			);
+			path = "UI-LoginDemoWithSegue";
+			sourceTree = "<group>";
+		};
+		CC34D1451CD2062200B4B3B4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC34D1781CD2068E00B4B3B4 /* login */,
+				CC34D1461CD2062200B4B3B4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CC34D15E1CD2062200B4B3B4 /* UI-LoginDemoWithSegueTests */ = {
+			isa = PBXGroup;
+			children = (
+				CC34D15F1CD2062200B4B3B4 /* UI_LoginDemoWithSegueTests.m */,
+				CC34D1611CD2062200B4B3B4 /* Info.plist */,
+			);
+			path = "UI-LoginDemoWithSegueTests";
+			sourceTree = "<group>";
+		};
+		CC34D1691CD2062200B4B3B4 /* UI-LoginDemoWithSegueUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CC34D16A1CD2062200B4B3B4 /* UI_LoginDemoWithSegueUITests.m */,
+				CC34D16C1CD2062200B4B3B4 /* Info.plist */,
+			);
+			path = "UI-LoginDemoWithSegueUITests";
+			sourceTree = "<group>";
+		};
+		CC34D1781CD2068E00B4B3B4 /* login */ = {
+			isa = PBXGroup;
+			children = (
+				CC34D1791CD2068E00B4B3B4 /* btnLoginImage@2x.png */,
+				CC34D17A1CD2068E00B4B3B4 /* login_bg.jpg */,
+				CC34D17B1CD2068E00B4B3B4 /* login_bg@2x.jpg */,
+			);
+			path = login;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC34D1411CD2062200B4B3B4 /* UI-LoginDemoWithSegue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC34D16F1CD2062200B4B3B4 /* Build configuration list for PBXNativeTarget "UI-LoginDemoWithSegue" */;
+			buildPhases = (
+				CC34D13E1CD2062200B4B3B4 /* Sources */,
+				CC34D13F1CD2062200B4B3B4 /* Frameworks */,
+				CC34D1401CD2062200B4B3B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UI-LoginDemoWithSegue";
+			productName = "UI-LoginDemoWithSegue";
+			productReference = CC34D1421CD2062200B4B3B4 /* UI-LoginDemoWithSegue.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC34D15A1CD2062200B4B3B4 /* UI-LoginDemoWithSegueTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC34D1721CD2062200B4B3B4 /* Build configuration list for PBXNativeTarget "UI-LoginDemoWithSegueTests" */;
+			buildPhases = (
+				CC34D1571CD2062200B4B3B4 /* Sources */,
+				CC34D1581CD2062200B4B3B4 /* Frameworks */,
+				CC34D1591CD2062200B4B3B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC34D15D1CD2062200B4B3B4 /* PBXTargetDependency */,
+			);
+			name = "UI-LoginDemoWithSegueTests";
+			productName = "UI-LoginDemoWithSegueTests";
+			productReference = CC34D15B1CD2062200B4B3B4 /* UI-LoginDemoWithSegueTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CC34D1651CD2062200B4B3B4 /* UI-LoginDemoWithSegueUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC34D1751CD2062200B4B3B4 /* Build configuration list for PBXNativeTarget "UI-LoginDemoWithSegueUITests" */;
+			buildPhases = (
+				CC34D1621CD2062200B4B3B4 /* Sources */,
+				CC34D1631CD2062200B4B3B4 /* Frameworks */,
+				CC34D1641CD2062200B4B3B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC34D1681CD2062200B4B3B4 /* PBXTargetDependency */,
+			);
+			name = "UI-LoginDemoWithSegueUITests";
+			productName = "UI-LoginDemoWithSegueUITests";
+			productReference = CC34D1661CD2062200B4B3B4 /* UI-LoginDemoWithSegueUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC34D13A1CD2062200B4B3B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = qingyun;
+				TargetAttributes = {
+					CC34D1411CD2062200B4B3B4 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					CC34D15A1CD2062200B4B3B4 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = CC34D1411CD2062200B4B3B4;
+					};
+					CC34D1651CD2062200B4B3B4 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = CC34D1411CD2062200B4B3B4;
+					};
+				};
+			};
+			buildConfigurationList = CC34D13D1CD2062200B4B3B4 /* Build configuration list for PBXProject "UI-LoginDemoWithSegue" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC34D1391CD2062200B4B3B4;
+			productRefGroup = CC34D1431CD2062200B4B3B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC34D1411CD2062200B4B3B4 /* UI-LoginDemoWithSegue */,
+				CC34D15A1CD2062200B4B3B4 /* UI-LoginDemoWithSegueTests */,
+				CC34D1651CD2062200B4B3B4 /* UI-LoginDemoWithSegueUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC34D1401CD2062200B4B3B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC34D1551CD2062200B4B3B4 /* LaunchScreen.storyboard in Resources */,
+				CC34D17D1CD2068E00B4B3B4 /* login_bg.jpg in Resources */,
+				CC34D17C1CD2068E00B4B3B4 /* btnLoginImage@2x.png in Resources */,
+				CC34D1521CD2062200B4B3B4 /* Assets.xcassets in Resources */,
+				CC34D1501CD2062200B4B3B4 /* Main.storyboard in Resources */,
+				CC34D17E1CD2068E00B4B3B4 /* login_bg@2x.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC34D1591CD2062200B4B3B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC34D1641CD2062200B4B3B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC34D13E1CD2062200B4B3B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCEAC0AD1CD77CD600EA6815 /* QYStoryBoardSegue.m in Sources */,
+				CC34D14D1CD2062200B4B3B4 /* LoginVC.m in Sources */,
+				CC34D14A1CD2062200B4B3B4 /* AppDelegate.m in Sources */,
+				CC34D1471CD2062200B4B3B4 /* main.m in Sources */,
+				CCEAC0AA1CD7795700EA6815 /* UserInfoVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC34D1571CD2062200B4B3B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC34D1601CD2062200B4B3B4 /* UI_LoginDemoWithSegueTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC34D1621CD2062200B4B3B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC34D16B1CD2062200B4B3B4 /* UI_LoginDemoWithSegueUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC34D15D1CD2062200B4B3B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC34D1411CD2062200B4B3B4 /* UI-LoginDemoWithSegue */;
+			targetProxy = CC34D15C1CD2062200B4B3B4 /* PBXContainerItemProxy */;
+		};
+		CC34D1681CD2062200B4B3B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC34D1411CD2062200B4B3B4 /* UI-LoginDemoWithSegue */;
+			targetProxy = CC34D1671CD2062200B4B3B4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CC34D14E1CD2062200B4B3B4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC34D14F1CD2062200B4B3B4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CC34D1531CD2062200B4B3B4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC34D1541CD2062200B4B3B4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC34D16D1CD2062200B4B3B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CC34D16E1CD2062200B4B3B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC34D1701CD2062200B4B3B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "UI-LoginDemoWithSegue/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qingyun.UI-LoginDemoWithSegue";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CC34D1711CD2062200B4B3B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "UI-LoginDemoWithSegue/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qingyun.UI-LoginDemoWithSegue";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CC34D1731CD2062200B4B3B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "UI-LoginDemoWithSegueTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qingyun.UI-LoginDemoWithSegueTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UI-LoginDemoWithSegue.app/UI-LoginDemoWithSegue";
+			};
+			name = Debug;
+		};
+		CC34D1741CD2062200B4B3B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "UI-LoginDemoWithSegueTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qingyun.UI-LoginDemoWithSegueTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UI-LoginDemoWithSegue.app/UI-LoginDemoWithSegue";
+			};
+			name = Release;
+		};
+		CC34D1761CD2062200B4B3B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "UI-LoginDemoWithSegueUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qingyun.UI-LoginDemoWithSegueUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "UI-LoginDemoWithSegue";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CC34D1771CD2062200B4B3B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "UI-LoginDemoWithSegueUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qingyun.UI-LoginDemoWithSegueUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "UI-LoginDemoWithSegue";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC34D13D1CD2062200B4B3B4 /* Build configuration list for PBXProject "UI-LoginDemoWithSegue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC34D16D1CD2062200B4B3B4 /* Debug */,
+				CC34D16E1CD2062200B4B3B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC34D16F1CD2062200B4B3B4 /* Build configuration list for PBXNativeTarget "UI-LoginDemoWithSegue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC34D1701CD2062200B4B3B4 /* Debug */,
+				CC34D1711CD2062200B4B3B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC34D1721CD2062200B4B3B4 /* Build configuration list for PBXNativeTarget "UI-LoginDemoWithSegueTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC34D1731CD2062200B4B3B4 /* Debug */,
+				CC34D1741CD2062200B4B3B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC34D1751CD2062200B4B3B4 /* Build configuration list for PBXNativeTarget "UI-LoginDemoWithSegueUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC34D1761CD2062200B4B3B4 /* Debug */,
+				CC34D1771CD2062200B4B3B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC34D13A1CD2062200B4B3B4 /* Project object */;
+}
